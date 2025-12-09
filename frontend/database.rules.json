@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "current_game": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}

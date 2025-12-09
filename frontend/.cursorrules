@@ -1,0 +1,17 @@
+# Real-time Scoring & Leaderboard System
+
+This project implements a real-time scoring system using React and Firebase.
+
+## Key Files
+- `src/firebaseConfig.js` - Firebase initialization (UPDATE THIS FIRST!)
+- `src/hooks/useGameState.js` - Real-time data listener
+- `src/components/ScoreDisplay.jsx` - Shows score during gameplay
+- `src/components/LeaderboardForm.jsx` - Form for submitting to leaderboard
+- `database.rules.json` - Realtime Database security rules
+- `firestore.rules` - Firestore security rules
+
+## Important Notes
+- Frontend can only READ from Realtime Database (cannot write)
+- Score updates must come from Firebase Console or Backend
+- Leaderboard entries cannot be modified after submission
+
